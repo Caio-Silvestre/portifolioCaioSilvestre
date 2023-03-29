@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/portifolioCaioSilvestre`;
 
   return (
     <main id="home">
@@ -44,29 +44,30 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Olá, seja bem-vindo ao portifólio de {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+            Desenvolvendo{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                soluções 
               </Text>{" "}
-              creating and{" "}
+              de forma{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+              criativa e eficaz
               </Text>{" "}
-              projects
+              
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            Sou graduado em Publicidade e Propaganda pela PUC-PR, e sempre atuei na área criativa como designer por ser atraído pela tecnologia. Após dois anos de atuação, tomei a decisão de estudar Front-End, e por consequência, me aprofundei na área da Tecnologia. Assim, iniciei um novo ciclo de transição de carreira e me formei na Kenzie Academy Brasil, no curso pessoa Desenvolvedor  Full-Stack.<br></br> 
+Jornada onde aprendi o que é ser um desenvolvedor; dominei tecnologias de Front-End, Back-End e me apaixonei pelos frameworks, estrutura das linguagens, e a prática de "clean code". Atualmente meu objetivo é um cargo como desenvolvedor Full-Stack, onde eu possa contribuir para empresa.
+
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Ver Projetos
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+                Código do Portfólio 
               </Button>
               <Button
                 color="grey5"
@@ -92,12 +93,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Projetos{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  pessoais, com status públicos no GitHub.
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>

@@ -45,6 +45,7 @@ export const Project = (): JSX.Element => {
       {repositories &&
         repositories?.map?.((repository) => (
           <ProjectWrapper key={repository.id}>
+           
             <ProjectTitle
               as="h2"
               type="heading3"
@@ -52,7 +53,9 @@ export const Project = (): JSX.Element => {
               color="grey4"
             >
               {repository.name}
+
             </ProjectTitle>
+           
 
             <ProjectStack>
               <Text type="body2" color="grey2">
